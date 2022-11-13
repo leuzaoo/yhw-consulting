@@ -1,0 +1,37 @@
+* {
+  font-family: roboto, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #eee;
+}
+
+body {
+  color: #121A39;
+}
+
+header div {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 28px;
+}
+header p {
+  font-size: 24px;
+  font-weight: bold;
+}
+header p span {
+  font-size: 12px;
+  font-weight: 600;
+}
+header button {
+  border: solid 2px #904397;
+  border-radius: 30px;
+  padding: 4px 8px;
+}
+header button p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #904397;
+}
+
+/*# sourceMappingURL=styles.css.map */

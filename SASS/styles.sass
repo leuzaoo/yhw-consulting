@@ -1,0 +1,35 @@
+@use 'variables'
+
+*
+    font-family: roboto, sans-serif
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+    background-color: variables.$background-color
+
+body
+    color: variables.$text-color
+
+header
+    div
+        display: flex
+        justify-content: space-between
+        padding: 12px 28px
+
+    p
+        font-size: 24px
+        font-weight: bold
+
+        span
+            font-size: 12px
+            font-weight: 600
+
+    button
+        border: solid 2px variables.$border-color
+        border-radius: 30px
+        padding: 4px 8px
+
+        p
+            font-size: 12px
+            font-weight: 500
+            color: variables.$border-color
