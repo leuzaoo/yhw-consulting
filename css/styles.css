@@ -58,4 +58,18 @@ h1 {
   margin-top: 8px;
 }
 
+.andre-img {
+  text-align: center;
+  margin-top: 56px;
+}
+.andre-img img {
+  width: 120px;
+  border-radius: 50%;
+}
+.andre-img p {
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 18px;
+}
+
 /*# sourceMappingURL=styles.css.map */
