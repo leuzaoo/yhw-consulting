@@ -3,35 +3,59 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: #eee;
+  background-color: #575757;
 }
 
 body {
-  color: #121A39;
+  color: #eee;
 }
 
 header div {
   display: flex;
   justify-content: space-between;
   padding: 12px 28px;
+  background-color: #eee;
+  color: #2e2e2e;
 }
-header p {
+header div p {
   font-size: 24px;
   font-weight: bold;
+  background-color: #eee;
 }
-header p span {
+header div span {
   font-size: 12px;
   font-weight: 600;
+  background-color: #eee;
 }
 header button {
   border: solid 2px #904397;
   border-radius: 30px;
   padding: 4px 8px;
+  background-color: #eee;
 }
 header button p {
   font-size: 12px;
   font-weight: 500;
   color: #904397;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  margin: 56px 0 0 0;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.title-subtitle ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 60px;
+  font-weight: 300;
+  font-size: 12px;
+  list-style: none;
+  margin-top: 8px;
 }
 
 /*# sourceMappingURL=styles.css.map */
