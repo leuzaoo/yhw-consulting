@@ -1,0 +1,100 @@
+@use "variables";
+@use "breakpoints";
+
+* {
+  font-family: roboto, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: variables.$background-color;
+}
+
+body {
+  color: variables.$text-color;
+}
+
+header {
+  div {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 28px;
+    background-color: variables.$header-color;
+    color: variables.$header-text;
+  }
+
+  p {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: variables.$header-color;
+  }
+
+  span {
+    font-size: 12px;
+    font-weight: 600;
+    background-color: variables.$header-color;
+  }
+}
+
+button {
+  border: solid 2px variables.$border-color;
+  border-radius: 30px;
+  padding: 4px 8px;
+  background-color: variables.$header-color;
+}
+
+p {
+  font-size: 12px;
+  font-weight: 500;
+  color: variables.$border-color;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  margin: 56px 0 0 0;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.title-subtitle {
+  ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+    font-weight: 300;
+    font-size: 12px;
+    list-style: none;
+    margin-top: 8px;
+  }
+}
+
+.andre-img {
+  text-align: center;
+  margin-top: 56px;
+
+  img {
+    width: 120px;
+    border-radius: 50%;
+  }
+  p {
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 18px;
+    color: variables.$text-color;
+  }
+}
+
+.responsive-test {
+  @include phone {
+    color: red;
+  }
+
+  @include tablet {
+    color: blue;
+  }
+
+  @include desktop {
+    color: yellow;
+  }
+}
