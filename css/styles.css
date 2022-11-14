@@ -1,18 +1,98 @@
-/* Error: Undefined mixin.
- *    ,
- * 89 | /   @include phone {
- * 90 | |     color: red;
- * 91 | \   }
- *    '
- *   SASS\styles.scss 89:3  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined mixin.\a    \2577 \a 89 \2502  \250c    @include phone {\a 90 \2502  \2502      color: red;\a 91 \2502  \2514    }\a    \2575 \a   SASS\\styles.scss 89:3  root stylesheet";
+* {
+  font-family: roboto, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #575757;
 }
+
+body {
+  color: #eee;
+}
+
+header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 28px;
+  background-color: #eee;
+}
+header h3 {
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #eee;
+  color: #2e2e2e;
+}
+header span {
+  font-size: 12px;
+  font-weight: 600;
+  background-color: #eee;
+}
+header p {
+  background-color: #eee;
+}
+
+button {
+  border: solid 2px #904397;
+  border-radius: 30px;
+  padding: 4px 8px;
+  background-color: #eee;
+}
+
+p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #904397;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  margin: 56px 0 0 0;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.title-subtitle ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 60px;
+  font-weight: 300;
+  font-size: 12px;
+  list-style: none;
+  margin-top: 8px;
+}
+
+.andre-img {
+  text-align: center;
+  margin-top: 56px;
+}
+.andre-img img {
+  width: 120px;
+  border-radius: 50%;
+}
+.andre-img p {
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 18px;
+  color: #eee;
+}
+
+@media (min-width: 414px) {
+  .responsive-test {
+    color: red;
+  }
+}
+@media (min-width: 768px) {
+  .responsive-test {
+    color: blue;
+  }
+}
+@media (min-width: 1280px) {
+  .responsive-test {
+    color: yellow;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

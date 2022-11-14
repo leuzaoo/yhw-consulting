@@ -1,5 +1,5 @@
 @use "variables";
-@use "breakpoints";
+@import "breakpoints";
 
 * {
   font-family: roboto, sans-serif;
@@ -17,20 +17,25 @@ header {
   div {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 12px 28px;
     background-color: variables.$header-color;
-    color: variables.$header-text;
   }
 
-  p {
+  h3 {
     font-size: 24px;
     font-weight: bold;
     background-color: variables.$header-color;
+    color: variables.$header-text;
   }
 
   span {
     font-size: 12px;
     font-weight: 600;
+    background-color: variables.$header-color;
+  }
+
+  p {
     background-color: variables.$header-color;
   }
 }
