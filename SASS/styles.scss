@@ -20,13 +20,15 @@ header {
     align-items: center;
     padding: 12px 28px;
     background-color: variables.$header-color;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+      rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   }
 
   h3 {
     font-size: 24px;
     font-weight: bold;
     background-color: variables.$header-color;
-    color: variables.$header-text;
+    color: #2e2e2e;
   }
 
   span {
@@ -41,6 +43,7 @@ header {
 }
 
 button {
+  width: 72px;
   border: solid 2px variables.$border-color;
   border-radius: 30px;
   padding: 4px 8px;
@@ -48,8 +51,8 @@ button {
 }
 
 p {
-  font-size: 12px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 600;
   color: variables.$border-color;
 }
 
@@ -59,7 +62,8 @@ h1 {
   margin: 56px 0 0 0;
   font-size: 28px;
   text-transform: uppercase;
-  font-weight: normal;
+  font-weight: 500;
+  color: variables.$header-text;
 }
 
 .title-subtitle {
@@ -67,8 +71,9 @@ h1 {
     display: flex;
     justify-content: space-between;
     padding: 0 60px;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 12px;
+    color: variables.$header-text;
     list-style: none;
     margin-top: 8px;
   }
@@ -79,14 +84,16 @@ h1 {
   margin-top: 56px;
 
   img {
-    width: 120px;
+    width: 160px;
     border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+      rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   }
   p {
     font-size: 12px;
-    font-weight: 300;
+    font-weight: 500;
     margin-top: 18px;
-    color: variables.$text-color;
+    color: variables.$header-text;
   }
 }
 

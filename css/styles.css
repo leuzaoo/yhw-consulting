@@ -3,7 +3,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: #575757;
+  background-color: #d6d1cd;
 }
 
 body {
@@ -15,34 +15,36 @@ header div {
   justify-content: space-between;
   align-items: center;
   padding: 12px 28px;
-  background-color: #eee;
+  background-color: #E5ECE9;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 header h3 {
   font-size: 24px;
   font-weight: bold;
-  background-color: #eee;
+  background-color: #E5ECE9;
   color: #2e2e2e;
 }
 header span {
   font-size: 12px;
   font-weight: 600;
-  background-color: #eee;
+  background-color: #E5ECE9;
 }
 header p {
-  background-color: #eee;
+  background-color: #E5ECE9;
 }
 
 button {
-  border: solid 2px #904397;
+  width: 72px;
+  border: solid 2px #969A97;
   border-radius: 30px;
   padding: 4px 8px;
-  background-color: #eee;
+  background-color: #E5ECE9;
 }
 
 p {
-  font-size: 12px;
-  font-weight: 500;
-  color: #904397;
+  font-size: 14px;
+  font-weight: 600;
+  color: #969A97;
 }
 
 h1 {
@@ -51,15 +53,17 @@ h1 {
   margin: 56px 0 0 0;
   font-size: 28px;
   text-transform: uppercase;
-  font-weight: normal;
+  font-weight: 500;
+  color: #2E2E2E;
 }
 
 .title-subtitle ul {
   display: flex;
   justify-content: space-between;
   padding: 0 60px;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 12px;
+  color: #2E2E2E;
   list-style: none;
   margin-top: 8px;
 }
@@ -69,14 +73,15 @@ h1 {
   margin-top: 56px;
 }
 .andre-img img {
-  width: 120px;
+  width: 160px;
   border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 .andre-img p {
   font-size: 12px;
-  font-weight: 300;
+  font-weight: 500;
   margin-top: 18px;
-  color: #eee;
+  color: #2E2E2E;
 }
 
 @media (min-width: 414px) {
