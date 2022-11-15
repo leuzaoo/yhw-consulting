@@ -69,8 +69,9 @@ h1 {
 .title-subtitle {
   ul {
     display: flex;
-    justify-content: space-between;
-    padding: 0 60px;
+    justify-content: center;
+    gap: 16px;
+    padding: 0 48px;
     font-weight: 500;
     font-size: 12px;
     color: variables.$header-text;
@@ -89,10 +90,20 @@ h1 {
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
       rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   }
-  p {
-    font-size: 12px;
+
+  .andre-name {
+    font-size: 16px;
     font-weight: 500;
     margin-top: 18px;
+    color: variables.$header-text;
+  }
+
+  .andre-summary {
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 56px;
+    padding: 0 24px;
     color: variables.$header-text;
   }
 }
@@ -108,5 +119,37 @@ h1 {
 
   @include desktop {
     color: yellow;
+  }
+}
+
+@include tablet {
+  .title-subtitle {
+    h1 {
+      font-size: 40px;
+    }
+
+    ul {
+      font-size: 16px;
+    }
+  }
+
+  .andre-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+    img {
+      width: 180px;
+    }
+  }
+
+  .andre-summary {
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 56px;
+    padding: 0 110px;
+    color: variables.$header-text;
   }
 }

@@ -15,36 +15,36 @@ header div {
   justify-content: space-between;
   align-items: center;
   padding: 12px 28px;
-  background-color: #E5ECE9;
+  background-color: #e5ece9;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 header h3 {
   font-size: 24px;
   font-weight: bold;
-  background-color: #E5ECE9;
+  background-color: #e5ece9;
   color: #2e2e2e;
 }
 header span {
   font-size: 12px;
   font-weight: 600;
-  background-color: #E5ECE9;
+  background-color: #e5ece9;
 }
 header p {
-  background-color: #E5ECE9;
+  background-color: #e5ece9;
 }
 
 button {
   width: 72px;
-  border: solid 2px #969A97;
+  border: solid 2px #969a97;
   border-radius: 30px;
   padding: 4px 8px;
-  background-color: #E5ECE9;
+  background-color: #e5ece9;
 }
 
 p {
   font-size: 14px;
   font-weight: 600;
-  color: #969A97;
+  color: #969a97;
 }
 
 h1 {
@@ -54,16 +54,17 @@ h1 {
   font-size: 28px;
   text-transform: uppercase;
   font-weight: 500;
-  color: #2E2E2E;
+  color: #2e2e2e;
 }
 
 .title-subtitle ul {
   display: flex;
-  justify-content: space-between;
-  padding: 0 60px;
+  justify-content: center;
+  gap: 16px;
+  padding: 0 48px;
   font-weight: 500;
   font-size: 12px;
-  color: #2E2E2E;
+  color: #2e2e2e;
   list-style: none;
   margin-top: 8px;
 }
@@ -77,11 +78,19 @@ h1 {
   border-radius: 50%;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
-.andre-img p {
-  font-size: 12px;
+.andre-img .andre-name {
+  font-size: 16px;
   font-weight: 500;
   margin-top: 18px;
-  color: #2E2E2E;
+  color: #2e2e2e;
+}
+.andre-img .andre-summary {
+  font-size: 16px;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 56px;
+  padding: 0 24px;
+  color: #2e2e2e;
 }
 
 @media (min-width: 414px) {
@@ -97,6 +106,32 @@ h1 {
 @media (min-width: 1280px) {
   .responsive-test {
     color: yellow;
+  }
+}
+
+@media (min-width: 768px) {
+  .title-subtitle h1 {
+    font-size: 40px;
+  }
+  .title-subtitle ul {
+    font-size: 16px;
+  }
+  .andre-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+  .andre-img img {
+    width: 180px;
+  }
+  .andre-summary {
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 56px;
+    padding: 0 110px;
+    color: #2e2e2e;
   }
 }
 
