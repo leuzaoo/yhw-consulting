@@ -2,7 +2,7 @@
 @import "breakpoints";
 
 * {
-  font-family: roboto, sans-serif;
+  font-family: kanit, sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -18,6 +18,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 54px;
     padding: 12px 28px;
     background-color: variables.$header-color;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
@@ -44,16 +45,13 @@ header {
 
 button {
   width: 72px;
-  border: solid 2px variables.$border-color;
-  border-radius: 30px;
-  padding: 4px 8px;
-  background-color: variables.$header-color;
+  border: none;
 }
 
 p {
   font-size: 14px;
   font-weight: 600;
-  color: variables.$border-color;
+  color: variables.$secondary-color;
 }
 
 h1 {

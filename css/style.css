@@ -1,9 +1,9 @@
 * {
-  font-family: kanit, sans-serif;
+  font-family: roboto, sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: #fff;
+  background-color: #d6d1cd;
 }
 
 body {
@@ -14,35 +14,37 @@ header div {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 54px;
   padding: 12px 28px;
-  background-color: #fff;
+  background-color: #e5ece9;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 header h3 {
   font-size: 24px;
   font-weight: bold;
-  background-color: #fff;
+  background-color: #e5ece9;
   color: #2e2e2e;
 }
 header span {
   font-size: 12px;
   font-weight: 600;
-  background-color: #fff;
+  background-color: #e5ece9;
 }
 header p {
-  background-color: #fff;
+  background-color: #e5ece9;
 }
 
 button {
   width: 72px;
-  border: none;
+  border: solid 2px #969a97;
+  border-radius: 30px;
+  padding: 4px 8px;
+  background-color: #e5ece9;
 }
 
 p {
   font-size: 14px;
   font-weight: 600;
-  color: #5060b5;
+  color: #969a97;
 }
 
 h1 {
@@ -133,4 +135,4 @@ h1 {
   }
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=style.css.map */
