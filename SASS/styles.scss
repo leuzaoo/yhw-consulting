@@ -32,12 +32,6 @@ header {
     color: #2e2e2e;
   }
 
-  span {
-    font-size: 12px;
-    font-weight: 600;
-    background-color: variables.$header-color;
-  }
-
   p {
     background-color: variables.$header-color;
   }
@@ -56,15 +50,65 @@ p {
 
 h1 {
   width: 100%;
-  text-align: center;
-  margin: 56px 0 0 0;
-  font-size: 28px;
+  font-size: 52px;
   text-transform: uppercase;
-  font-weight: 500;
-  color: variables.$header-text;
+  font-weight: 600;
+  color: variables.$title-text;
+}
+
+.consulting-text {
+  text-align: left;
+  padding-left: 28px;
+  height: 60px;
+}
+
+span {
+  font-size: 52px;
+  font-weight: 600;
+  padding-left: 56px;
+  color: variables.$secondary-color;
+}
+
+.commercial-audit-text {
+  display: flex;
+  text-align: right;
+  padding-right: 28px;
+  height: 60px;
 }
 
 .title-subtitle {
+  margin-top: 32px;
+
+  .business-text {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+    margin-top: 56px;
+    padding: 0px 28px;
+    gap: 28px;
+  }
+
+  p {
+    color: #939393;
+    font-weight: 400;
+    width: 850px;
+  }
+
+  button {
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    height: 50px;
+    background-color: variables.$secondary-color;
+    padding: 1px;
+    width: 275px;
+  }
+
+  .arrow-up-img {
+    background: none;
+  }
+
   ul {
     display: flex;
     justify-content: center;
@@ -72,9 +116,9 @@ h1 {
     padding: 0 48px;
     font-weight: 500;
     font-size: 12px;
-    color: variables.$header-text;
+    color: variables.$title-text;
     list-style: none;
-    margin-top: 8px;
+    margin-top: 28px;
   }
 }
 
@@ -93,7 +137,7 @@ h1 {
     font-size: 16px;
     font-weight: 500;
     margin-top: 18px;
-    color: variables.$header-text;
+    color: variables.$title-text;
   }
 
   .andre-summary {
@@ -102,7 +146,7 @@ h1 {
     text-align: center;
     margin-top: 56px;
     padding: 0 24px;
-    color: variables.$header-text;
+    color: variables.$title-text;
   }
 }
 
@@ -148,6 +192,6 @@ h1 {
     text-align: center;
     margin-top: 56px;
     padding: 0 110px;
-    color: variables.$header-text;
+    color: variables.$title-text;
   }
 }
