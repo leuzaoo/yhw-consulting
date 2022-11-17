@@ -55,6 +55,7 @@ header button {
 }
 .title-subtitle .commercial-audit-text {
   display: flex;
+  justify-content: space-between;
   text-align: right;
   padding-right: 28px;
   height: 60px;
@@ -67,19 +68,23 @@ header button {
   gap: 28px;
   color: #939393;
   font-weight: 400;
+  text-align: justify;
   font-size: 12px;
   padding: 0 28px;
+}
+.title-subtitle a {
+  background-color: #5060b5;
+  padding: 0px 15px;
+  position: relative;
+  border: none;
 }
 .title-subtitle button {
   font-size: 16px;
   text-align: center;
   color: #fff;
   height: 54px;
-  background-color: #5060b5;
-  padding: 1px;
-  width: 225px;
-  position: relative;
   border: none;
+  background: none;
 }
 .title-subtitle .arrow-up-img {
   background: none;
@@ -99,28 +104,35 @@ ul {
   margin-top: 28px;
 }
 
+h3 {
+  margin-top: 62px;
+  font-size: 32px;
+  padding-left: 28px;
+}
+
+.final-point {
+  font-size: 64px;
+  color: #5060b5;
+}
+
 .andre-img {
-  text-align: center;
-  margin-top: 56px;
-}
-.andre-img img {
-  width: 160px;
-  border-radius: 50%;
-  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-}
-.andre-img .andre-name {
-  font-size: 16px;
-  font-weight: 500;
-  margin-top: 18px;
-  color: #2e2e2e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 28px;
+  margin-top: 44px;
+  gap: 16px;
 }
 .andre-img .andre-summary {
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 100;
-  text-align: center;
-  margin-top: 56px;
-  padding: 0 24px;
-  color: #2e2e2e;
+  text-align: justify;
+  color: #939393;
+}
+.andre-img img {
+  width: 120px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 
 @media (min-width: 414px) {

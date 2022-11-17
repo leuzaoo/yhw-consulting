@@ -67,6 +67,7 @@ header {
 
   .commercial-audit-text {
     display: flex;
+    justify-content: space-between;
     text-align: right;
     padding-right: 28px;
     height: 60px;
@@ -80,20 +81,24 @@ header {
     gap: 28px;
     color: variables.$primary-color;
     font-weight: 400;
+    text-align: justify;
     font-size: 12px;
     padding: 0 28px;
   }
 
+  a {
+    background-color: variables.$secondary-color;
+    padding: 0px 15px;
+    position: relative;
+    border: none;
+  }
   button {
     font-size: 16px;
     text-align: center;
     color: #fff;
     height: 54px;
-    background-color: variables.$secondary-color;
-    padding: 1px;
-    width: 225px;
-    position: relative;
     border: none;
+    background: none;
   }
 
   .arrow-up-img {
@@ -115,31 +120,37 @@ ul {
   margin-top: 28px;
 }
 
+h3 {
+  margin-top: 62px;
+  font-size: 32px;
+  padding-left: 28px;
+}
+
+.final-point {
+  font-size: 64px;
+  color: variables.$secondary-color;
+}
+
 .andre-img {
-  text-align: center;
-  margin-top: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 28px;
+  margin-top: 44px;
+  gap: 16px;
+
+  .andre-summary {
+    font-size: 12px;
+    font-weight: 100;
+    text-align: justify;
+    color: variables.$primary-color;
+  }
 
   img {
-    width: 160px;
+    width: 120px;
     border-radius: 50%;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
       rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-  }
-
-  .andre-name {
-    font-size: 16px;
-    font-weight: 500;
-    margin-top: 18px;
-    color: variables.$title-text;
-  }
-
-  .andre-summary {
-    font-size: 16px;
-    font-weight: 100;
-    text-align: center;
-    margin-top: 56px;
-    padding: 0 24px;
-    color: variables.$title-text;
   }
 }
 
