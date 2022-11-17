@@ -170,32 +170,24 @@ h3 {
 
 @include tablet {
   .title-subtitle {
+    padding: 0 64px;
+
     h1 {
-      font-size: 40px;
+      font-size: 84px;
+      background: none;
     }
 
-    ul {
-      font-size: 16px;
+    span {
+      font-size: 84px;
+      background: none;
     }
-  }
 
-  .andre-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
-
-    img {
-      width: 180px;
+    .commercial-audit-text {
+      margin-top: 12px;
     }
-  }
 
-  .andre-summary {
-    font-size: 16px;
-    font-weight: 100;
-    text-align: center;
-    margin-top: 56px;
-    padding: 0 110px;
-    color: variables.$title-text;
+    .business-text {
+      margin-top: 96px;
+    }
   }
 }

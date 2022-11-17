@@ -152,28 +152,22 @@ h3 {
 }
 
 @media (min-width: 768px) {
+  .title-subtitle {
+    padding: 0 64px;
+  }
   .title-subtitle h1 {
-    font-size: 40px;
+    font-size: 84px;
+    background: none;
   }
-  .title-subtitle ul {
-    font-size: 16px;
+  .title-subtitle span {
+    font-size: 84px;
+    background: none;
   }
-  .andre-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 24px;
+  .title-subtitle .commercial-audit-text {
+    margin-top: 12px;
   }
-  .andre-img img {
-    width: 180px;
-  }
-  .andre-summary {
-    font-size: 16px;
-    font-weight: 100;
-    text-align: center;
-    margin-top: 56px;
-    padding: 0 110px;
-    color: #2e2e2e;
+  .title-subtitle .business-text {
+    margin-top: 96px;
   }
 }
 
