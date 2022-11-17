@@ -9,10 +9,6 @@
   background-color: variables.$background-color;
 }
 
-body {
-  color: variables.$text-color;
-}
-
 header {
   div {
     display: flex;
@@ -20,7 +16,7 @@ header {
     align-items: center;
     height: 54px;
     padding: 12px 28px;
-    background-color: variables.$header-color;
+    background-color: variables.$background-color;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
       rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
   }
@@ -28,98 +24,95 @@ header {
   h3 {
     font-size: 24px;
     font-weight: bold;
-    background-color: variables.$header-color;
+    background-color: variables.$background-color;
     color: #2e2e2e;
   }
 
   p {
-    background-color: variables.$header-color;
+    background-color: variables.$background-color;
   }
-}
 
-button {
-  width: 72px;
-  border: none;
-}
-
-p {
-  font-size: 14px;
-  font-weight: 600;
-  color: variables.$secondary-color;
-}
-
-h1 {
-  width: 100%;
-  font-size: 52px;
-  text-transform: uppercase;
-  font-weight: 600;
-  color: variables.$title-text;
-}
-
-.consulting-text {
-  text-align: left;
-  padding-left: 28px;
-  height: 60px;
-}
-
-span {
-  font-size: 52px;
-  font-weight: 600;
-  padding-left: 56px;
-  color: variables.$secondary-color;
-}
-
-.commercial-audit-text {
-  display: flex;
-  text-align: right;
-  padding-right: 28px;
-  height: 60px;
+  button {
+    width: 72px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: variables.$secondary-color;
+  }
 }
 
 .title-subtitle {
   margin-top: 32px;
 
+  h1 {
+    font-size: 52px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: variables.$title-text;
+  }
+
+  .consulting-text {
+    text-align: left;
+    padding-left: 28px;
+    height: 60px;
+  }
+
+  span {
+    font-size: 52px;
+    font-weight: 600;
+    padding-left: 56px;
+    color: variables.$secondary-color;
+  }
+
+  .commercial-audit-text {
+    display: flex;
+    text-align: right;
+    padding-right: 28px;
+    height: 60px;
+  }
+
   .business-text {
     display: flex;
     justify-content: space-between;
-    text-align: left;
     align-items: center;
     margin-top: 56px;
-    padding: 0px 28px;
     gap: 28px;
-  }
-
-  p {
-    color: #939393;
+    color: variables.$primary-color;
     font-weight: 400;
-    width: 850px;
+    font-size: 12px;
+    padding: 0 28px;
   }
 
   button {
     font-size: 16px;
     text-align: center;
     color: #fff;
-    height: 50px;
+    height: 54px;
     background-color: variables.$secondary-color;
     padding: 1px;
-    width: 275px;
+    width: 225px;
+    position: relative;
+    border: none;
   }
 
   .arrow-up-img {
     background: none;
+    position: absolute;
+    top: 2px;
+    right: 2px;
   }
+}
 
-  ul {
-    display: flex;
-    justify-content: center;
-    gap: 16px;
-    padding: 0 48px;
-    font-weight: 500;
-    font-size: 12px;
-    color: variables.$title-text;
-    list-style: none;
-    margin-top: 28px;
-  }
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  font-weight: 500;
+  font-size: 12px;
+  color: variables.$title-text;
+  list-style: none;
+  margin-top: 28px;
 }
 
 .andre-img {

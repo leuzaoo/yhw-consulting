@@ -6,10 +6,6 @@
   background-color: #fff;
 }
 
-body {
-  color: #eee;
-}
-
 header div {
   display: flex;
   justify-content: space-between;
@@ -28,80 +24,74 @@ header h3 {
 header p {
   background-color: #fff;
 }
-
-button {
+header button {
   width: 72px;
   border: none;
-}
-
-p {
   font-size: 14px;
   font-weight: 600;
   color: #5060b5;
 }
 
-h1 {
-  width: 100%;
+.title-subtitle {
+  margin-top: 32px;
+}
+.title-subtitle h1 {
   font-size: 52px;
+  text-align: center;
   text-transform: uppercase;
   font-weight: 600;
   color: #2e2e2e;
 }
-
-.consulting-text {
+.title-subtitle .consulting-text {
   text-align: left;
   padding-left: 28px;
   height: 60px;
 }
-
-span {
+.title-subtitle span {
   font-size: 52px;
   font-weight: 600;
   padding-left: 56px;
   color: #5060b5;
 }
-
-.commercial-audit-text {
+.title-subtitle .commercial-audit-text {
   display: flex;
   text-align: right;
   padding-right: 28px;
   height: 60px;
 }
-
-.title-subtitle {
-  margin-top: 32px;
-}
 .title-subtitle .business-text {
   display: flex;
   justify-content: space-between;
-  text-align: left;
   align-items: center;
   margin-top: 56px;
-  padding: 0px 28px;
   gap: 28px;
-}
-.title-subtitle p {
   color: #939393;
   font-weight: 400;
-  width: 850px;
+  font-size: 12px;
+  padding: 0 28px;
 }
 .title-subtitle button {
   font-size: 16px;
   text-align: center;
   color: #fff;
-  height: 50px;
+  height: 54px;
   background-color: #5060b5;
   padding: 1px;
-  width: 275px;
+  width: 225px;
+  position: relative;
+  border: none;
 }
 .title-subtitle .arrow-up-img {
   background: none;
+  position: absolute;
+  top: 2px;
+  right: 2px;
 }
-.title-subtitle ul {
+
+ul {
   display: flex;
   justify-content: center;
   gap: 16px;
-  padding: 0 48px;
   font-weight: 500;
   font-size: 12px;
   color: #2e2e2e;
