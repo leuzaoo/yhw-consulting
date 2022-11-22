@@ -170,6 +170,10 @@ h3 {
     div {
       padding: 0px 56px;
     }
+
+    button {
+      font-size: 14px;
+    }
   }
 
   .title-subtitle {
@@ -187,6 +191,15 @@ h3 {
       background: none;
     }
 
+    a {
+      display: flex;
+      justify-content: center;
+      width: 50%;
+    }
+
+    .contact-button {
+      font-size: 20px;
+    }
     .commercial-audit-text {
       margin-top: 12px;
     }
@@ -195,13 +208,38 @@ h3 {
       margin-top: 96px;
       font-size: 16px;
       font-weight: 500;
+      gap: 40px;
     }
   }
 
   ul {
+    margin-top: 88px;
+
     li {
       font-size: 16px;
       font-weight: 500;
+    }
+  }
+
+  h3 {
+    margin-top: 96px;
+    font-size: 48px;
+  }
+
+  .final-point {
+    font-size: 96px;
+  }
+
+  .andre-img {
+    padding: 0 64px;
+    gap: 52px;
+
+    .andre-summary {
+      font-size: 16px;
+    }
+
+    img {
+      width: 160px;
     }
   }
 }
