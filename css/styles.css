@@ -34,6 +34,7 @@ header button {
 
 .title-subtitle {
   margin-top: 32px;
+  padding: 0 28px;
 }
 .title-subtitle h1 {
   font-size: 52px;
@@ -44,20 +45,17 @@ header button {
 }
 .title-subtitle .consulting-text {
   text-align: left;
-  padding-left: 28px;
   height: 60px;
 }
 .title-subtitle span {
   font-size: 52px;
   font-weight: 600;
-  padding-left: 56px;
   color: #5060b5;
 }
 .title-subtitle .commercial-audit-text {
   display: flex;
   justify-content: space-between;
   text-align: right;
-  padding-right: 28px;
   height: 60px;
 }
 .title-subtitle .business-text {
@@ -70,7 +68,6 @@ header button {
   font-weight: 400;
   text-align: justify;
   font-size: 12px;
-  padding: 0 28px;
 }
 .title-subtitle a {
   background-color: #5060b5;
@@ -157,8 +154,10 @@ h3 {
   }
   .title-subtitle {
     padding: 0 64px;
+    margin-top: 96px;
   }
   .title-subtitle h1 {
+    padding: 0px 0px;
     font-size: 84px;
     background: none;
   }
@@ -171,6 +170,12 @@ h3 {
   }
   .title-subtitle .business-text {
     margin-top: 96px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  ul li {
+    font-size: 16px;
+    font-weight: 500;
   }
 }
 
