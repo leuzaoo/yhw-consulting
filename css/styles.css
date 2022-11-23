@@ -210,5 +210,17 @@ h3 {
     width: 160px;
   }
 }
+@media (min-width: 1280px) {
+  header div {
+    height: 65px;
+  }
+  header img {
+    width: 60px;
+  }
+  header button {
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */

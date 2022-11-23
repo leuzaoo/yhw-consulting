@@ -243,3 +243,20 @@ h3 {
     }
   }
 }
+
+@include desktop {
+  header {
+    div {
+      height: 65px;
+    }
+
+    img {
+      width: 60px;
+    }
+
+    button {
+      font-size: 20px;
+      font-weight: 500;
+    }
+  }
+}
