@@ -221,6 +221,32 @@ h3 {
     font-size: 20px;
     font-weight: 500;
   }
+  .title-subtitle {
+    padding: 0 180px;
+  }
+  .title-subtitle a {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+  }
+  .title-subtitle button {
+    height: 80px;
+  }
+  .title-subtitle .consulting-text {
+    padding-left: 165px;
+  }
+  .title-subtitle .audit-text {
+    padding-right: 165px;
+  }
+  .title-subtitle span {
+    padding-left: 220px;
+  }
+  .title-subtitle .business-text {
+    margin-top: 96px;
+    gap: 120px;
+    font-size: 20px;
+    font-weight: 400;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

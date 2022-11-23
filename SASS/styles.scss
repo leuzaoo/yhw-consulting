@@ -259,4 +259,36 @@ h3 {
       font-weight: 500;
     }
   }
+  .title-subtitle {
+    padding: 0 180px;
+
+    a {
+      display: flex;
+      justify-content: center;
+      width: 25%;
+    }
+
+    button {
+      height: 80px;
+    }
+
+    .consulting-text {
+      padding-left: 165px;
+    }
+
+    .audit-text {
+      padding-right: 165px;
+    }
+
+    span {
+      padding-left: 220px;
+    }
+
+    .business-text {
+      margin-top: 96px;
+      gap: 120px;
+      font-size: 20px;
+      font-weight: 400;
+    }
+  }
 }
