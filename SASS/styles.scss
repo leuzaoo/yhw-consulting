@@ -53,22 +53,10 @@ header {
     color: variables.$title-text;
   }
 
-  .consulting-text {
-    text-align: left;
-    height: 60px;
-  }
-
   span {
     font-size: 52px;
     font-weight: 600;
     color: variables.$secondary-color;
-  }
-
-  .commercial-audit-text {
-    display: flex;
-    justify-content: space-between;
-    text-align: right;
-    height: 60px;
   }
 
   .business-text {
@@ -200,9 +188,6 @@ h3 {
     .contact-button {
       font-size: 20px;
     }
-    .commercial-audit-text {
-      margin-top: 12px;
-    }
 
     .business-text {
       margin-top: 96px;
@@ -274,15 +259,6 @@ h3 {
 
     button {
       height: 80px;
-    }
-
-    .consulting-text {
-      padding-left: px;
-      z-index: 100;
-    }
-
-    .audit-text {
-      padding-right: px;
     }
 
     span {
