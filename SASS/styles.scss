@@ -164,15 +164,10 @@ h3 {
     padding: 0 64px;
     margin-top: 96px;
 
-    h1 {
-      padding: 0px 0px;
-      font-size: 84px;
-      background: none;
-    }
-
     span {
       font-size: 84px;
       background: none;
+      line-height: 60px;
     }
 
     a {
@@ -185,11 +180,8 @@ h3 {
       font-size: 20px;
     }
 
-    .business-text {
-      margin-top: 96px;
+    .subtitle-button{
       font-size: 16px;
-      font-weight: 500;
-      gap: 40px;
     }
   }
 

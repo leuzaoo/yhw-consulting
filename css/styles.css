@@ -142,14 +142,10 @@ h3 {
     padding: 0 64px;
     margin-top: 96px;
   }
-  .title-subtitle h1 {
-    padding: 0px 0px;
-    font-size: 84px;
-    background: none;
-  }
   .title-subtitle span {
     font-size: 84px;
     background: none;
+    line-height: 60px;
   }
   .title-subtitle a {
     display: flex;
@@ -159,11 +155,8 @@ h3 {
   .title-subtitle .contact-button {
     font-size: 20px;
   }
-  .title-subtitle .business-text {
-    margin-top: 96px;
+  .title-subtitle .subtitle-button {
     font-size: 16px;
-    font-weight: 500;
-    gap: 40px;
   }
   ul {
     margin-top: 88px;
