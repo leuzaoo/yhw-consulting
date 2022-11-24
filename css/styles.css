@@ -37,16 +37,28 @@ header button {
   padding: 0 28px;
 }
 .title-subtitle h1 {
-  font-size: 52px;
-  text-align: center;
+  font-size: 48px;
   text-transform: uppercase;
   font-weight: 600;
   color: #2e2e2e;
+  line-height: 24px;
+}
+.title-subtitle .audit-span {
+  display: flex;
+  justify-content: end;
+  color: #2e2e2e;
 }
 .title-subtitle span {
-  font-size: 52px;
+  font-size: 48px;
   font-weight: 600;
+  margin-right: 24px;
   color: #5060b5;
+}
+.title-subtitle .consulting-span {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  color: #2e2e2e;
 }
 .title-subtitle .business-text {
   display: flex;
@@ -120,22 +132,6 @@ h3 {
   width: 120px;
   border-radius: 50%;
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-}
-
-@media (min-width: 414px) {
-  .responsive-test {
-    color: red;
-  }
-}
-@media (min-width: 768px) {
-  .responsive-test {
-    color: blue;
-  }
-}
-@media (min-width: 1280px) {
-  .responsive-test {
-    color: yellow;
-  }
 }
 
 @media (min-width: 768px) {

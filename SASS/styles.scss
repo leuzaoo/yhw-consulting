@@ -46,17 +46,30 @@ header {
   padding: 0 28px;
 
   h1 {
-    font-size: 52px;
-    text-align: center;
+    font-size: 48px;
     text-transform: uppercase;
     font-weight: 600;
+    color: variables.$title-text;
+    line-height: 24px;
+  }
+  .audit-span {
+    display: flex;
+    justify-content: end;
     color: variables.$title-text;
   }
 
   span {
-    font-size: 52px;
+    font-size: 48px;
     font-weight: 600;
+    margin-right: 24px;
     color: variables.$secondary-color;
+  }
+
+  .consulting-span {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: variables.$title-text;
   }
 
   .business-text {
@@ -136,20 +149,6 @@ h3 {
     border-radius: 50%;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
       rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-  }
-}
-
-.responsive-test {
-  @include phone {
-    color: red;
-  }
-
-  @include tablet {
-    color: blue;
-  }
-
-  @include desktop {
-    color: yellow;
   }
 }
 
