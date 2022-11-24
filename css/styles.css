@@ -222,6 +222,10 @@ h3 {
     font-weight: 500;
   }
   .title-subtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
     padding: 0 180px;
   }
   .title-subtitle a {
@@ -233,13 +237,15 @@ h3 {
     height: 80px;
   }
   .title-subtitle .consulting-text {
-    padding-left: 165px;
+    padding-left: px;
+    z-index: 100;
   }
   .title-subtitle .audit-text {
-    padding-right: 165px;
+    padding-right: px;
   }
   .title-subtitle span {
-    padding-left: 220px;
+    margin-right: 50px;
+    margin-left: 100px;
   }
   .title-subtitle .business-text {
     margin-top: 96px;
