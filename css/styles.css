@@ -60,15 +60,12 @@ header button {
   justify-content: start;
   color: #2e2e2e;
 }
-.title-subtitle .business-text {
+.title-subtitle .subtitle-button {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   margin-top: 22px;
-  gap: 28px;
+  gap: 34px;
   color: #939393;
-  font-weight: 400;
-  text-align: justify;
   font-size: 12px;
 }
 .title-subtitle a {
@@ -100,7 +97,7 @@ ul {
   font-size: 12px;
   color: #2e2e2e;
   list-style: none;
-  margin-top: 22px;
+  margin-top: 32px;
 }
 
 h3 {
