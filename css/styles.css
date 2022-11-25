@@ -219,9 +219,7 @@ h3 {
     padding-right: 120px;
   }
   .title-subtitle a {
-    display: flex;
-    justify-content: center;
-    width: 25%;
+    width: 30%;
   }
   .title-subtitle button {
     height: 80px;
