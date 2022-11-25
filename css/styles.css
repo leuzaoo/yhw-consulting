@@ -139,6 +139,10 @@ h3 {
     font-size: 14px;
   }
   .title-subtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
     padding: 0 64px;
     margin-top: 96px;
   }
@@ -156,6 +160,8 @@ h3 {
     font-size: 20px;
   }
   .title-subtitle .subtitle-button {
+    display: flex;
+    align-items: center;
     font-size: 16px;
   }
   ul {
@@ -168,6 +174,7 @@ h3 {
   h3 {
     margin-top: 96px;
     font-size: 48px;
+    padding-left: 64px;
   }
   .final-point {
     font-size: 96px;
@@ -200,6 +207,16 @@ h3 {
     align-items: center;
     width: 100%;
     padding: 0 180px;
+  }
+  .title-subtitle .subtitle-button {
+    margin-top: 96px;
+    display: flex;
+    justify-content: center;
+    width: 920px;
+    font-size: 20px;
+  }
+  .title-subtitle p {
+    padding-right: 120px;
   }
   .title-subtitle a {
     display: flex;
