@@ -371,12 +371,20 @@ img {
   }
 
   .summary-text {
+    display: flex;
+    align-items: center;
     font-size: 16px;
     line-height: 16px;
   }
 
   .social-medias img {
     width: 32px;
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-test {
+    margin-top: 120px;
   }
 }
 
