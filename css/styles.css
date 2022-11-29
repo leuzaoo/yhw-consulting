@@ -152,7 +152,7 @@ h3 {
 .footer-test {
   width: 100%;
   display: flex;
-  margin-top: 96px;
+  margin-top: 320px;
   color: #fff;
 }
 
@@ -235,6 +235,11 @@ img {
   padding: 12px 0;
 }
 
+.social-medias a {
+  background: none;
+  cursor: pointer;
+}
+
 @media (min-width: 768px) {
   header div {
     padding: 0px 56px;
@@ -306,6 +311,27 @@ img {
     font-weight: 300;
     color: #939393;
     line-height: 75%;
+  }
+  .adresses {
+    display: flex;
+    justify-content: center;
+    padding: 24px 24px;
+    font-size: 16px;
+  }
+  .about-company {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    font-size: 24px;
+    padding: 24px;
+  }
+  .summary-text {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .social-medias img {
+    width: 32px;
   }
 }
 @media (min-width: 1280px) {
@@ -393,6 +419,20 @@ img {
     font-weight: 300;
     color: #939393;
     line-height: 75%;
+  }
+  .footer-test {
+    height: 230px;
+  }
+  .adresses {
+    padding-left: 180px;
+    gap: 24px;
+  }
+  .about-company {
+    padding-right: 180px;
+    gap: 12px;
+  }
+  .social-medias {
+    gap: 24px;
   }
 }
 
