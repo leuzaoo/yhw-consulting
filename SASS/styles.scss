@@ -28,7 +28,7 @@ header {
     color: #2e2e2e;
   }
 
-  p {
+  .text-company {
     background-color: variables.$background-color;
   }
 
@@ -91,6 +91,7 @@ header {
     position: relative;
     border: none;
   }
+
   button {
     font-size: 16px;
     text-align: center;
@@ -170,12 +171,30 @@ h3 {
   }
 }
 
-.adresses {
+.footer-test {
+  width: 100%;
+  display: flex;
   margin-top: 96px;
-  height: 152px;
+  color: #fff;
+}
+
+.footer-test p {
+  background: none;
+}
+
+.adresses {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-items: center;
+  width: 100%;
   background-color: variables.$title-text;
   padding: 12px 12px;
   font-size: 12px;
+}
+
+.adresses p {
+  padding: 0 12px;
 }
 
 .local-adress {
@@ -198,12 +217,6 @@ img {
   background: none;
 }
 
-p {
-  margin-left: 12px;
-  background: none;
-  color: #fff;
-}
-
 .phone-adress {
   display: flex;
   align-items: center;
@@ -218,8 +231,30 @@ p {
   background: none;
 }
 
-.mail-text{
+.mail-text {
   color: variables.$secondary-color;
+}
+
+.about-company {
+  font-size: 12px;
+  background-color: #2e2e2e;
+  width: 100%;
+  padding: 12px 12px;
+}
+
+.summary-text {
+  color: variables.$primary-color;
+  font-size: 10px;
+  margin-top: 12px;
+  line-height: 12px;
+}
+
+.social-medias {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 12px;
+  background: none;
+  padding: 12px 0;
 }
 
 @include tablet {

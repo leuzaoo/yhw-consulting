@@ -21,7 +21,7 @@ header h3 {
   background-color: #fff;
   color: #2e2e2e;
 }
-header p {
+header .text-company {
   background-color: #fff;
 }
 header button {
@@ -149,12 +149,30 @@ h3 {
   line-height: 75%;
 }
 
-.adresses {
+.footer-test {
+  width: 100%;
+  display: flex;
   margin-top: 96px;
-  height: 152px;
+  color: #fff;
+}
+
+.footer-test p {
+  background: none;
+}
+
+.adresses {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-items: center;
+  width: 100%;
   background-color: #2e2e2e;
   padding: 12px 12px;
   font-size: 12px;
+}
+
+.adresses p {
+  padding: 0 12px;
 }
 
 .local-adress {
@@ -177,12 +195,6 @@ img {
   background: none;
 }
 
-p {
-  margin-left: 12px;
-  background: none;
-  color: #fff;
-}
-
 .phone-adress {
   display: flex;
   align-items: center;
@@ -199,6 +211,28 @@ p {
 
 .mail-text {
   color: #5060b5;
+}
+
+.about-company {
+  font-size: 12px;
+  background-color: #2e2e2e;
+  width: 100%;
+  padding: 12px 12px;
+}
+
+.summary-text {
+  color: #939393;
+  font-size: 10px;
+  margin-top: 12px;
+  line-height: 12px;
+}
+
+.social-medias {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 12px;
+  background: none;
+  padding: 12px 0;
 }
 
 @media (min-width: 768px) {
