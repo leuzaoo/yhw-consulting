@@ -24,9 +24,10 @@ header h3 {
 header .text-company {
   background-color: #fff;
 }
-header button {
+header a {
   width: 72px;
   border: none;
+  text-decoration: none;
   font-size: 14px;
   font-weight: 600;
   color: #5060b5;
@@ -74,9 +75,12 @@ header button {
 }
 .title-subtitle a {
   background-color: #5060b5;
-  padding: 0px 15px;
+  padding: 15px 25px;
   position: relative;
   border: none;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
 }
 .title-subtitle button {
   font-size: 16px;
@@ -252,7 +256,7 @@ img {
   header div {
     padding: 0px 56px;
   }
-  header button {
+  header a {
     font-size: 14px;
   }
   .title-subtitle {
@@ -272,9 +276,6 @@ img {
     display: flex;
     justify-content: center;
     width: 175px;
-  }
-  .title-subtitle .contact-button {
-    font-size: 20px;
   }
   .title-subtitle .subtitle-button {
     display: flex;
@@ -357,7 +358,7 @@ img {
   header img {
     width: 60px;
   }
-  header button {
+  header a {
     font-size: 20px;
     font-weight: 500;
     cursor: pointer;

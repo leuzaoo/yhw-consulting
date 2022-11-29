@@ -32,9 +32,10 @@ header {
     background-color: variables.$background-color;
   }
 
-  button {
+  a {
     width: 72px;
     border: none;
+    text-decoration: none;
     font-size: 14px;
     font-weight: 600;
     color: variables.$secondary-color;
@@ -87,9 +88,12 @@ header {
 
   a {
     background-color: variables.$secondary-color;
-    padding: 0px 15px;
+    padding: 15px 25px;
     position: relative;
     border: none;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
   }
 
   button {
@@ -276,7 +280,7 @@ img {
       padding: 0px 56px;
     }
 
-    button {
+    a {
       font-size: 14px;
     }
   }
@@ -299,10 +303,6 @@ img {
       display: flex;
       justify-content: center;
       width: 175px;
-    }
-
-    .contact-button {
-      font-size: 20px;
     }
 
     .subtitle-button {
@@ -407,7 +407,7 @@ img {
       width: 60px;
     }
 
-    button {
+    a {
       font-size: 20px;
       font-weight: 500;
       cursor: pointer;
