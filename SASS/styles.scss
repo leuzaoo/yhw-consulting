@@ -170,6 +170,58 @@ h3 {
   }
 }
 
+.adresses {
+  margin-top: 96px;
+  height: 152px;
+  background-color: variables.$title-text;
+  padding: 12px 12px;
+  font-size: 12px;
+}
+
+.local-adress {
+  background: none;
+  display: flex;
+  align-items: center;
+}
+
+.text-adress {
+  background: none;
+  line-height: 14px;
+}
+
+.city-text {
+  font-weight: 300;
+  font-size: 12px;
+}
+
+img {
+  background: none;
+}
+
+p {
+  margin-left: 12px;
+  background: none;
+  color: #fff;
+}
+
+.phone-adress {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  background: none;
+}
+
+.mail-adress {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  background: none;
+}
+
+.mail-text{
+  color: variables.$secondary-color;
+}
+
 @include tablet {
   header {
     div {

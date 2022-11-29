@@ -149,6 +149,58 @@ h3 {
   line-height: 75%;
 }
 
+.adresses {
+  margin-top: 96px;
+  height: 152px;
+  background-color: #2e2e2e;
+  padding: 12px 12px;
+  font-size: 12px;
+}
+
+.local-adress {
+  background: none;
+  display: flex;
+  align-items: center;
+}
+
+.text-adress {
+  background: none;
+  line-height: 14px;
+}
+
+.city-text {
+  font-weight: 300;
+  font-size: 12px;
+}
+
+img {
+  background: none;
+}
+
+p {
+  margin-left: 12px;
+  background: none;
+  color: #fff;
+}
+
+.phone-adress {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  background: none;
+}
+
+.mail-adress {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  background: none;
+}
+
+.mail-text {
+  color: #5060b5;
+}
+
 @media (min-width: 768px) {
   header div {
     padding: 0px 56px;
