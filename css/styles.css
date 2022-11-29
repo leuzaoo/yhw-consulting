@@ -135,6 +135,20 @@ h3 {
   box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 
+.certificates ul {
+  display: flex;
+  flex-direction: column;
+  margin-top: 42px;
+  padding: 0 32px;
+}
+.certificates li {
+  list-style: inside;
+  font-size: 12px;
+  font-weight: 300;
+  color: #939393;
+  line-height: 75%;
+}
+
 @media (min-width: 768px) {
   header div {
     padding: 0px 56px;
@@ -166,6 +180,7 @@ h3 {
   .title-subtitle .subtitle-button {
     display: flex;
     align-items: center;
+    margin-top: 88px;
     font-size: 16px;
   }
   ul {
@@ -193,10 +208,23 @@ h3 {
   .andre-img img {
     width: 160px;
   }
+  .certificates ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 42px;
+    padding: 0 64px;
+  }
+  .certificates li {
+    list-style: inside;
+    font-size: 16px;
+    font-weight: 300;
+    color: #939393;
+    line-height: 75%;
+  }
 }
 @media (min-width: 1280px) {
   header div {
-    padding: 0 300px;
+    padding: 0 180px;
     height: 65px;
   }
   header img {
@@ -235,14 +263,7 @@ h3 {
     margin-right: 50px;
     margin-left: 100px;
   }
-  .title-subtitle .business-text {
-    margin-top: 96px;
-    gap: 120px;
-    font-size: 20px;
-    font-weight: 400;
-  }
   h3 {
-    justify-items: center;
     width: 920px;
     padding: 0;
     top: 0;
@@ -252,6 +273,7 @@ h3 {
     margin: auto;
   }
   .about {
+    margin-top: -15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -264,6 +286,27 @@ h3 {
     display: flex;
     align-items: center;
     width: 920px;
+  }
+  .certificates h3 {
+    margin-bottom: 44px;
+  }
+  .certificates ul {
+    display: flex;
+    flex-direction: column;
+    width: 920px;
+    padding: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .certificates li {
+    list-style: inside;
+    font-size: 16px;
+    font-weight: 300;
+    color: #939393;
+    line-height: 75%;
   }
 }
 

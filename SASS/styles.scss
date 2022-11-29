@@ -153,6 +153,23 @@ h3 {
   }
 }
 
+.certificates {
+  ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 42px;
+    padding: 0 32px;
+  }
+
+  li {
+    list-style: inside;
+    font-size: 12px;
+    font-weight: 300;
+    color: variables.$primary-color;
+    line-height: 75%;
+  }
+}
+
 @include tablet {
   header {
     div {
@@ -191,7 +208,7 @@ h3 {
     .subtitle-button {
       display: flex;
       align-items: center;
-
+      margin-top: 88px;
       font-size: 16px;
     }
   }
@@ -227,12 +244,29 @@ h3 {
       width: 160px;
     }
   }
+
+  .certificates {
+    ul {
+      display: flex;
+      flex-direction: column;
+      margin-top: 42px;
+      padding: 0 64px;
+    }
+
+    li {
+      list-style: inside;
+      font-size: 16px;
+      font-weight: 300;
+      color: variables.$primary-color;
+      line-height: 75%;
+    }
+  }
 }
 
 @include desktop {
   header {
     div {
-      padding: 0 300px;
+      padding: 0 180px;
       height: 65px;
     }
 
@@ -279,17 +313,9 @@ h3 {
       margin-right: 50px;
       margin-left: 100px;
     }
-
-    .business-text {
-      margin-top: 96px;
-      gap: 120px;
-      font-size: 20px;
-      font-weight: 400;
-    }
   }
 
   h3 {
-    justify-items: center;
     width: 920px;
     padding: 0;
     top: 0;
@@ -300,6 +326,7 @@ h3 {
   }
 
   .about {
+    margin-top: -15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -313,5 +340,30 @@ h3 {
     display: flex;
     align-items: center;
     width: 920px;
+  }
+
+  .certificates {
+    h3 {
+      margin-bottom: 44px;
+    }
+    ul {
+      display: flex;
+      flex-direction: column;
+      width: 920px;
+      padding: 0;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+    }
+
+    li {
+      list-style: inside;
+      font-size: 16px;
+      font-weight: 300;
+      color: variables.$primary-color;
+      line-height: 75%;
+    }
   }
 }
