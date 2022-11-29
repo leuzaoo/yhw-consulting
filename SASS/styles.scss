@@ -42,6 +42,10 @@ header {
 }
 
 .title-subtitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
   margin-top: 32px;
   padding: 0 28px;
 
@@ -177,7 +181,7 @@ h3 {
     a {
       display: flex;
       justify-content: center;
-      width: 50%;
+      width: 175px;
     }
 
     .contact-button {
@@ -228,6 +232,7 @@ h3 {
 @include desktop {
   header {
     div {
+      padding: 0 300px;
       height: 65px;
     }
 
@@ -238,8 +243,10 @@ h3 {
     button {
       font-size: 20px;
       font-weight: 500;
+      cursor: pointer;
     }
   }
+
   .title-subtitle {
     display: flex;
     flex-direction: column;
@@ -265,6 +272,7 @@ h3 {
 
     button {
       height: 80px;
+      cursor: pointer;
     }
 
     span {
@@ -278,5 +286,22 @@ h3 {
       font-size: 20px;
       font-weight: 400;
     }
+  }
+
+  .about {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 360px;
+  }
+
+  h3 {
+    padding: 0;
+  }
+
+  .andre-img {
+    padding: 0px;
   }
 }

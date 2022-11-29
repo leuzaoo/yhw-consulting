@@ -33,6 +33,10 @@ header button {
 }
 
 .title-subtitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
   margin-top: 32px;
   padding: 0 28px;
 }
@@ -154,7 +158,7 @@ h3 {
   .title-subtitle a {
     display: flex;
     justify-content: center;
-    width: 50%;
+    width: 175px;
   }
   .title-subtitle .contact-button {
     font-size: 20px;
@@ -192,6 +196,7 @@ h3 {
 }
 @media (min-width: 1280px) {
   header div {
+    padding: 0 300px;
     height: 65px;
   }
   header img {
@@ -200,6 +205,7 @@ h3 {
   header button {
     font-size: 20px;
     font-weight: 500;
+    cursor: pointer;
   }
   .title-subtitle {
     display: flex;
@@ -223,6 +229,7 @@ h3 {
   }
   .title-subtitle button {
     height: 80px;
+    cursor: pointer;
   }
   .title-subtitle span {
     margin-right: 50px;
@@ -233,6 +240,20 @@ h3 {
     gap: 120px;
     font-size: 20px;
     font-weight: 400;
+  }
+  .about {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 360px;
+  }
+  h3 {
+    padding: 0;
+  }
+  .andre-img {
+    padding: 0px;
   }
 }
 
